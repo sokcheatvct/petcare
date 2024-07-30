@@ -29,13 +29,11 @@
     margin: auto;
     height: 75px;
     width: 1000px,
-    
 }
 .icon{
     width: 100px;
     height: 10px;
     float: left;
-    
 }
 .logo{
     color:#b8801a;
@@ -111,7 +109,7 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }   
-center{
+.center{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -154,7 +152,7 @@ center{
 .gallery img{
     width: 210px;
     padding: 2px;
-    filter:grayscale(100%);
+    filter:grayscale(5%);
     transition: 1s;
 }
 .gallery img:haver{
