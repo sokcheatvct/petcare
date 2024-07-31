@@ -3,9 +3,10 @@
     padding:0;
 }
 .main{
-    background-image:url(image23.jpg);
+    box-sizing: border-box;
+    background-image:url(image.jpg);
+    background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-attachment: fixed;
     background-size:cover;
     height: 109vh;
@@ -20,7 +21,7 @@
 }
 .service{
     width: 100%;
-    background-image: url(image24.jpg);
+    background-image: url(image23.jpg);
     background-position: center;
     background-size:cover;
     height: 109vh;
