@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,1);
+    border-radius: 10%;
+    width: 1335%;
+    height:20%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+@media screen and(max-width:1739px){
+   .main{
+    width:100%;
+    height:100%;
+   } 
+}
+   @media screen and(max-width:1026px){
+    .main{
+     width:100%;
+     height:100%;
+    } 
+}
+    @media screen and(min-width:300px){
+        .main{
+         width:100%;
+         height:100%;
+        } 
+    }
+        @media screen and(min-width:400px){
+            .main{
+             width:100%;
+             height:100%;
+            } 
+}
+.next{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1335%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+@media screen and(max-width:750px){
+   .main{
+    width:100%;
+    height:100%;
+   } 
+}
+.service{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1335%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+@media screen and(max-width:750px){
+   .main{
+    width:100%;
+    height:100%;
+   } 
+}
+.navbar{
+    height: 75px;
+    width: 1000px,
+}
+.icon{
+    width: 100px;
+    height: 10px;
+    float: left;
+}
+.logo{
+    color:#b8801a;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    float: left;
+    padding-top: 15px;
+}
+.menu{
+    width: 90px;
+    float:left;
+    height: 50px;
+}
+    
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 2%;
+    font-size: 18px;
+  
+}
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+ul li a:hover{
+    color:#d41746;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 800px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 230px;
+    height: 35px;
+    background:transparent;
+    border:1px solid #cc9124;
+    margin-top: 8px;
+    color:#0d0bac;
+    border-right: none;
+    font-size:15px;
+    float: left;
+    padding:5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background: orange;
+    border:2px solid orange;
+    margin-top: 8px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}   
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+}
+.gap{
+    gap:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.center-col{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.center a{
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: #090a0a;
+}
+.profile{
+    width: 20%;
+    border-radius:50%;
+}
+.heading{
+    color:#3511d6;
+    font-family: 'Times New Roman', Times, serif;
+}
+.paragraph{
+    width:70%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0d1a1a;
+}
+.gallery{
+    margin-bottom: 10px;
+    margin: 10px 45px;
+}
+.gallery img{
+    width: 210px;
+    padding: 2px;
+    filter:grayscale(2%);
+    transition: 1s;
+}
+.gallery img:haver{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.underline{
+    text-decoration: underline ;
+    color: #3511d6;
+}
+.pic{
+    width: 125%;
+    border-radius:125%;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.pic-box{
+    width: 500px;
+    height: 500px;
+}
+.pic-box pic{
+    width: 100%;
+    height: 100%;
+}
