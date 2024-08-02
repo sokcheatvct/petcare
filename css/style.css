@@ -1,33 +1,5 @@
-*{
-    margin: 0;
-    padding:0;
-}
-.main{
-    box-sizing: border-box;
-    background-image:url(image.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    height: 109vh;
 
-}
-.next{
-    width: 100%;
-    background-image: url(image23.jpg);
-    background-position: center;
-    background-size:cover;
-    height: 109vh;
-}
-.service{
-    width: 100%;
-    background-image: url(image23.jpg);
-    background-position: center;
-    background-size:cover;
-    height: 109vh;
-}
 .navbar{
-    margin: auto;
     height: 75px;
     width: 1000px,
 }
@@ -35,6 +7,91 @@
     width: 100px;
     height: 10px;
     float: left;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1335%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+@media screen and(max-width:844px){
+   .main{
+    width:100%;
+    height:100%;
+   } 
+   @media screen and(min-width:1026px){
+    .main{
+     width:90%;
+     height:90%;
+    } 
+}
+}   
+.next{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1335%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+@media screen and(max-width:844px){
+   .next{
+    width:90%;
+    height:90%;
+   } 
+   @media screen and(min-width:1026px){
+    .next{
+     width:90%;
+     height:90%;
+    } 
+}
+}
+.service{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1335%;
+    background-color: white;
+    margin: auto;
+}
+.img{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+@media screen and(max-width:844px){
+   .service{
+    width:90%;
+    height:90%;
+   } 
+   @media screen and(max-width:700px){
+    .service{
+     width:90%;
+     height:90%;
+    } 
+    @media screen and(min-width:390px){
+        .service{
+         width:90%;
+         height:90%;
+        } 
+        @media screen and(man-width:400px){
+         .service{
+          width:90%;
+          height:90%;
+         } 
+     }
+    }
+}
 }
 .logo{
     color:#b8801a;
@@ -80,7 +137,7 @@ ul li a:hover{
 }
 .srch{
     font-family: 'Times New Roman';
-    width: 200px;
+    width: 230px;
     height: 35px;
     background:transparent;
     border:1px solid #cc9124;
@@ -134,8 +191,8 @@ ul li a:hover{
     color: #090a0a;
 }
 .profile{
-    width: 10%;
-    border-radius:60%;
+    width: 20%;
+    border-radius:50%;
 }
 .heading{
     color:#3511d6;
@@ -153,7 +210,7 @@ ul li a:hover{
 .gallery img{
     width: 210px;
     padding: 2px;
-    filter:grayscale(5%);
+    filter:grayscale(2%);
     transition: 1s;
 }
 .gallery img:haver{
