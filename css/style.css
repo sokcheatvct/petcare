@@ -2,14 +2,14 @@
 .main{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 10%;
-    width: 1335%;
+    width: 1200%;
     background-color: white;
     margin: auto;
 }
 .next{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 10%;
-    width: 1335%;
+    width: 1200%;
     background-color: white;
     margin: auto;
 }
@@ -17,23 +17,23 @@
 .service{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 10%;
-    width: 1335%;
+    width: 1200%;
     background-color: white;
     margin: auto;
 }
 .shops{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 10%;
-    width: 1335%;
+    width: 1200%;
     background-color: white;
     margin: auto;
 }
 .navbar{
-    height: 75px;
-    width: 1000px,
+    height: 55px;
+    width: 800px,
 }
 .icon{
-    width: 100px;
+    width: 90px;
     height: 10px;
     float: left;
 }
@@ -181,21 +181,21 @@ ul li a:hover{
     width: 100%;
     height: 100%;
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
 
     .pic{
         width: 70%;
         border-radius:60%;
     }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .menu{
         width: 20%;
         float: left;
         height: 15%;
   }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .ul{
         float:left;
         display: flex;
@@ -205,7 +205,7 @@ ul li a:hover{
     
     }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     ul li{
         list-style: none;
         margin-left: 2%;
@@ -213,17 +213,17 @@ ul li a:hover{
         font-size: 7px;
     }
  }
- @media screen and (max-width:700px){
+ @media only screen and (max-width:800px){
     ul li a{
         transition: 0.3s ease-in-out;
     }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     ul li a:hover{
         color:#e04169;
     }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .search{
         width: 80px;
         float: left;
@@ -258,7 +258,7 @@ ul li a:hover{
         outline: none;
     }   
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .main{
           width: 300%;
           height: 180%;
@@ -266,24 +266,37 @@ ul li a:hover{
     
     }
 }
-@media  screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .next{
           width: 300%;
           height: 180%;
           margin-top: 50px;
     }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .service{
           width: 300%;
           height: 150%;
           margin-top: 50px;
     }
 }
-@media screen and (max-width:700px){
+@media only screen and (max-width:800px){
     .shops{
-          width: 355%;
+          width: 300%;
           height: 180%;
           margin-top: 50px;
     }
+}
+@media only screen and (max-width:800px){
+.navbar{
+        height: 50px;
+        width: 700px,
+    }
+}
+@media only screen and (max-width:800px){
+.icon{
+       width: 80px;
+       height: 10px;
+       float: left;
+   }
 }
