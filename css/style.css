@@ -192,7 +192,7 @@ ul li a:hover{
     .menu{
         width: 20%;
         float: left;
-        height: 30%;
+        height: 15%;
   }
 }
 @media screen and (max-width:700px){
@@ -210,7 +210,7 @@ ul li a:hover{
         list-style: none;
         margin-left: 2%;
         margin-top: 2%;
-        font-size: 8px;
+        font-size: 7px;
     }
  }
  @media screen and (max-width:700px){
@@ -225,14 +225,14 @@ ul li a:hover{
 }
 @media screen and (max-width:700px){
     .search{
-        width: 85px;
+        width: 80px;
         float: left;
-        margin-left:100px;
+        margin-left:95px;
     }
     .srch{
         font-family: 'Times New Roman';
-        width: 60px;
-        height: 8px;
+        width: 50px;
+        height: 7px;
         background:transparent;
         border:1px solid #cc9124;
         margin-top: 15px;
@@ -243,8 +243,8 @@ ul li a:hover{
         padding:5px;
     }
     .btn{
-        width: 20px;
-        height: 9px;
+        width: 15px;
+        height: 7px;
         background: orange;
         border:3px solid orange;
         margin-top: 17px;
@@ -260,28 +260,30 @@ ul li a:hover{
 }
 @media screen and (max-width:700px){
     .main{
-          width: 350%;
+          width: 300%;
           height: 180%;
-          margin-top: 40px;
+          margin-top: 50px;
     
     }
 }
 @media  screen and (max-width:700px){
     .next{
-          width: 355%;
+          width: 300%;
           height: 180%;
-          margin-top: 20px;
+          margin-top: 50px;
     }
 }
 @media screen and (max-width:700px){
     .service{
-          width: 355%;
+          width: 300%;
           height: 150%;
+          margin-top: 50px;
     }
 }
 @media screen and (max-width:700px){
     .shops{
           width: 355%;
           height: 180%;
+          margin-top: 50px;
     }
 }
