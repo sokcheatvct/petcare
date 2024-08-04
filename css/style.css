@@ -1,33 +1,4 @@
 
-.main{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 10%;
-    width: 1200%;
-    background-color: white;
-    margin: auto;
-}
-.next{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 10%;
-    width: 1200%;
-    background-color: white;
-    margin: auto;
-}
- 
-.service{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 10%;
-    width: 1200%;
-    background-color: white;
-    margin: auto;
-}
-.shops{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 10%;
-    width: 1200%;
-    background-color: white;
-    margin: auto;
-}
 .navbar{
     height: 55px;
     width: 800px,
@@ -81,12 +52,12 @@ ul li a:hover{
 }
 .srch{
     font-family: 'Times New Roman';
-    width: 230px;
-    height: 35px;
+    width: 150px;
+    height: 23px;
     background:transparent;
-    border:1px solid #cc9124;
-    margin-top: 10px;
-    color:#0d0bac;
+    border:1px solid #1e0bc4;
+    margin-top: 20px;
+    color:hsl(66, 88%, 36%);
     border-right: none;
     font-size:15px;
     float: left;
@@ -95,15 +66,15 @@ ul li a:hover{
     border-top-left-radius: 5px;
 }
 .btn{
-    width: 90px;
-    height: 35px;
-    background: orange;
-    border:2px solid orange;
-    margin-top: 10px;
+    width: 55px;
+    height: 23px;
+    background: rgb(157, 255, 0);
+    border:1px solid orange;
+    margin-top: 20px;
     color:white;
-    font-size: 15px;
+    font-size: 10px;
     border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 1px;
 }
 .btn:focus{
     outline: none;
@@ -165,6 +136,36 @@ ul li a:hover{
     border-radius:125%;
     animation: animate 1s linear infinite;
 }
+
+.main{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1200%;
+    background-color: white;
+    margin: auto;
+}
+.next{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1200%;
+    background-color: white;
+    margin: auto;
+}
+ 
+.service{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1200%;
+    background-color: white;
+    margin: auto;
+}
+.shops{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 10%;
+    width: 1200%;
+    background-color: white;
+    margin: auto;
+}
 @keyframes animate{
     0%{
         filter: hue-rotate(0deg);
@@ -225,9 +226,9 @@ ul li a:hover{
 }
 @media only screen and (max-width:800px){
     .search{
-        width: 80px;
+        width: 60px;
         float: left;
-        margin-left:95px;
+        margin-left:70px;
     }
     .srch{
         font-family: 'Times New Roman';
@@ -235,7 +236,7 @@ ul li a:hover{
         height: 7px;
         background:transparent;
         border:1px solid #cc9124;
-        margin-top: 15px;
+        margin-top: 90px;
         color:#0d0bac;
         border-right: none;
         font-size:4px;
@@ -247,9 +248,10 @@ ul li a:hover{
         height: 7px;
         background: orange;
         border:3px solid orange;
-        margin-top: 17px;
+        margin-top: 30px;
         color:white;
-        font-size: 4px;
+        font-size: px;
+
     }
     .btn:focus{
         outline: none;
@@ -260,7 +262,7 @@ ul li a:hover{
 }
 @media only screen and (max-width:800px){
     .main{
-          width: 300%;
+          width: 280%;
           height: 180%;
           margin-top: 50px;
     
@@ -268,21 +270,21 @@ ul li a:hover{
 }
 @media only screen and (max-width:800px){
     .next{
-          width: 300%;
+          width: 280%;
           height: 180%;
           margin-top: 50px;
     }
 }
 @media only screen and (max-width:800px){
     .service{
-          width: 300%;
+          width: 280%;
           height: 150%;
           margin-top: 50px;
     }
 }
 @media only screen and (max-width:800px){
     .shops{
-          width: 300%;
+          width: 280%;
           height: 180%;
           margin-top: 50px;
     }
