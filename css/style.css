@@ -217,21 +217,21 @@ ul li a:hover{
     font-size: 21px;
     color: #b81a1a;
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
 
     .pic{
         width: 70%;
         border-radius:60%;
     }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
     .menu{
         width: 20%;
         float: left;
         height: 15%;
   }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
     .ul{
         float:left;
         display: flex;
@@ -241,7 +241,7 @@ ul li a:hover{
     
     }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
     ul li{
         list-style: none;
         margin-left: 3%;
@@ -249,17 +249,17 @@ ul li a:hover{
         font-size: 8px;
     }
  }
- @media only screen and (max-width:800px){
+ @media only screen and (max-width:750px){
     ul li a{
         transition: 0.3s ease-in-out;
     }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
     ul li a:hover{
         color:#e04169;
     }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
     .search{
         width: 40px;
         float: left;
@@ -306,7 +306,7 @@ ul li a:hover{
 @media only screen and (max-width:750px){
     .next{
           width: 280%;
-          height: 170%;
+          height: 180%;
           margin-top: 50px;
     }
 }
@@ -340,18 +340,18 @@ ul li a:hover{
 @media only screen and (max-width:750px){
 .pet{
       border-radius: 12%;
-      width: 90%;
+      width: 80%;
       margin-top:20px;
       margin-right: 10px;
    }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
 .navbar{
         height: 50px;
         width: 700px,
     }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:750px){
 .icon{
        width: 80px;
        height: 10px;
