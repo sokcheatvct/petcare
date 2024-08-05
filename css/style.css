@@ -356,4 +356,11 @@ ul li a:hover{
        height: 10px;
        float: left;
    }
+}@media only screen and (max-width:750px){
+   .circle{
+      margin-left: 5%;
+      font-size: 24px;
+     
+
+    }
 }
