@@ -159,17 +159,35 @@ ul li a:hover{
  
 .service{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 10%;
-    width: 1200%;
+    border-radius: 15%;
+    width: 80%;
     background-color: white;
-    margin: auto;
+    margin:auto;
+    margin-top: 120px;
 }
 .shops{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 10%;
-    width: 1200%;
+    border-radius: 15%;
+    width: 80%;
     background-color: white;
     margin: auto;
+    margin-top:120px;
+}
+.blog{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 15%;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top:120px;
+}
+.contact{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+    border-radius: 15%;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top:120px;
 }
 @keyframes animate{
     0%{
@@ -195,7 +213,7 @@ ul li a:hover{
 }
 .square{
     font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 21px;
     color: #b81a1a;
 }
 @media only screen and (max-width:800px){
@@ -304,6 +322,19 @@ ul li a:hover{
           height: 180%;
           margin-top: 50px;
     }
+
+}@media only screen and (max-width:750px){
+    .blog{
+        width: 280%;
+        height: 150%;
+        margin-top:50px;
+     }
+}@media only screen and (max-width:750px){
+    .contact{
+        width: 280%;
+        height: 150%;
+        margin-top:50px;
+     }
 }
 @media only screen and (max-width:750px){
 .pet{
