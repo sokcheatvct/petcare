@@ -17,7 +17,6 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 15px;
     float: left;
-    padding-top: 15px;
 }
 .menu{
     width: 90px;
@@ -207,10 +206,10 @@ ul li a:hover{
     height: 100%;
 }
 .circle{
+    margin-left: 10%;
     font-family:'Courier New', Courier, monospace;
     font-size: 24px;
-    color: #1d1ab8;
-
+    color: #111f9c;
 }
 .square{
     font-family:'Courier New', Courier, monospace;
@@ -338,7 +337,7 @@ ul li a:hover{
      }
 }
 @media only screen and (max-width:750px){
-.pet{
+   .pet{
       border-radius: 12%;
       width: 80%;
       margin-top:20px;
@@ -346,13 +345,13 @@ ul li a:hover{
    }
 }
 @media only screen and (max-width:750px){
-.navbar{
+   .navbar{
         height: 50px;
         width: 700px,
     }
 }
 @media only screen and (max-width:750px){
-.icon{
+    .icon{
        width: 80px;
        height: 10px;
        float: left;
