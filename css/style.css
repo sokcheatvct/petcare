@@ -193,6 +193,11 @@ ul li a:hover{
     color: #1d1ab8;
 
 }
+.square{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #b81a1a;
+}
 @media only screen and (max-width:800px){
 
     .pic{
