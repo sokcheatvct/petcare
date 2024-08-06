@@ -173,7 +173,7 @@ ul li a:hover{
     width: 80%;
     background-color: white;
     margin: auto;
-    margin-top:60px;
+    margin-top:70px;
     margin-left: 11%;
 
 }
@@ -182,7 +182,7 @@ ul li a:hover{
     width: 80%;
     background-color: white;
     margin: auto;
-    margin-top:60px;
+    margin-top:70px;
     margin-left: 11%;
 }
 .contact{
@@ -218,7 +218,8 @@ ul li a:hover{
 .square{
     font-family:'Courier New', Courier, monospace;
     font-size: 21px;
-    color: #b81a1a;
+    color: #f30808;
+    margin-left: 10%;
 }
 @media only screen and (max-width:750px){
 
