@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding:0;
@@ -19,9 +20,9 @@
     float: left;
 }
 .menu{
-    width: 90px;
+    width: 400px;
     float:left;
-    height: 50px;
+    height: 70px;
 }
 ul{
     float: left;
@@ -31,9 +32,9 @@ ul{
 }
 ul li{
     list-style: none;
-    margin-left: 25px;
-    margin-top: 3%;
-    font-size: 18px;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
   
 }
 ul li a{
@@ -114,7 +115,7 @@ ul li a:hover{
 .heading{
     color:#222422;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 21px;
+    font-size: 18px;
 }
 .gallery{
     margin-bottom: 15px;
@@ -284,11 +285,14 @@ ul li a:hover{
         background:transparent;
         border:1px solid #cc9124;
         margin-top: 11px;
-        color:#0d0bac;
+        color:#050507;
         border-right: none;
-        font-size:4px;
+        font-size:6px;
         float: left;
         padding:5px;
+        border-bottom-left-radius:5px;
+        border-top-left-radius:5px;
+
     }
     .btn{
         width: 20px;
@@ -296,8 +300,10 @@ ul li a:hover{
         background: orange;
         border:1px solid orange;
         margin-top: 11px;
-        color:white;
+        color:rgb(12, 11, 11);
         font-size:5px;
+        border-bottom-right-radius:5px;
+        border-top-right-radius:5px;
 
     }
     .btn:focus{
@@ -362,7 +368,7 @@ ul li a:hover{
 }@media only screen and (max-width:700px){
    .circle{
       margin-left: 6%;
-      font-size: 18px;
+      font-size: 16px;
     }
 }
 @media only screen and (max-width:700px){
