@@ -120,7 +120,7 @@ ul li a:hover{
 .gallery{
     margin-bottom: 15px;
     margin: 30px 75px;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 .gallery img{
     width: 230px;
@@ -149,7 +149,7 @@ ul li a:hover{
     background-color: white;
     margin: auto;
     margin-top: 70px;
-    margin-left: 11%;
+    margin-left: 9%;
 }
 .next{
     border-radius: 15%;
@@ -210,7 +210,7 @@ ul li a:hover{
     height: 100%;
 }
 .circle{
-    margin-left: 11%;
+    margin-left: 10%;
     font-family:'Courier New', Courier, monospace;
     font-size: 24px;
     color: #111f9c;
