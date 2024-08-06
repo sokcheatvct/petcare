@@ -85,6 +85,7 @@ ul li a:hover{
     outline: none;
 }   
 .center{
+    margin-left: 10%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -119,6 +120,7 @@ ul li a:hover{
 .gallery{
     margin-bottom: 15px;
     margin: 30px 75px;
+    margin-left: 17%;
 }
 .gallery img{
     width: 230px;
@@ -129,6 +131,7 @@ ul li a:hover{
 .gallery img:haver{
     filter: grayscale(0);
     transform: scale(1.1);
+    margin-left: 30%;
 }
 .underline{
     text-decoration: underline ;
@@ -141,24 +144,23 @@ ul li a:hover{
 }
 
 .main{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
-    border-radius: 15%;
-    width: 80%;
+    border-radius: 25%;
+    width: 90%;
     background-color: white;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 70px;
+    margin-left: 13%;
 }
 .next{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 15%;
-    width: 70%;
+    width: 90%;
     background-color: white;
     margin: auto;
-    margin-top:120px;
+    margin-top:60px;
+    margin-left: 13%;
 }
  
 .service{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 15%;
     width: 80%;
     background-color: white;
@@ -166,15 +168,15 @@ ul li a:hover{
     margin-top: 120px;
 }
 .shops{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 15%;
     width: 80%;
     background-color: white;
     margin: auto;
-    margin-top:120px;
+    margin-top:60px;
+    margin-left: 13%;
+
 }
 .blog{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 15%;
     width: 80%;
     background-color: white;
@@ -182,7 +184,6 @@ ul li a:hover{
     margin-top:120px;
 }
 .contact{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
     border-radius: 15%;
     width: 80%;
     background-color: white;
@@ -206,7 +207,7 @@ ul li a:hover{
     height: 100%;
 }
 .circle{
-    margin-left: 10%;
+    margin-left: 13%;
     font-family:'Courier New', Courier, monospace;
     font-size: 24px;
     color: #111f9c;
@@ -262,7 +263,7 @@ ul li a:hover{
     .search{
         width: 40px;
         float: left;
-        margin-left:50px;
+        margin-left:40px;
     }
     .srch{
         font-family: 'Times New Roman';
@@ -296,17 +297,18 @@ ul li a:hover{
 }
 @media only screen and (max-width:750px){
     .main{
-          width: 280%;
+          width: 300%;
           height: 180%;
           margin-top: 50px;
+          margin-left: 20px;
     
     }
 }
 @media only screen and (max-width:750px){
     .next{
-          width: 280%;
+          width: 330%;
           height: 180%;
-          margin-top: 50px;
+          margin-top: 10px;
     }
 }
 @media only screen and (max-width:750px){
@@ -358,9 +360,25 @@ ul li a:hover{
    }
 }@media only screen and (max-width:750px){
    .circle{
-      margin-left: 5%;
+      margin-left: 10%;
       font-size: 24px;
-     
-
     }
+}
+@media only screen and (max-width:750px){
+    .gallery{
+       margin-bottom: 15px;
+       margin: 35px 85px;
+     }
+}@media only screen and (max-width:750px){
+    .gallery img{
+       width: 130px;
+       padding: 4px;
+       filter:grayscale(1%);
+       transition: 0.5s;
+    }
+}@media only screen and (max-width:750px){
+    .gallery img:haver{
+       filter: grayscale(0);
+       transform: scale(1.1);
+     }
 }
