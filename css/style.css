@@ -290,8 +290,7 @@ ul li a:hover{
         font-size:6px;
         float: left;
         padding:5px;
-        border-bottom-left-radius:5px;
-        border-top-left-radius:5px;
+    
 
     }
     .btn{
@@ -394,5 +393,12 @@ ul li a:hover{
         font-size: 14px;
         color: #3b08f3;
         margin-left: 5%;
+  }
+}@media only screen and (max-width:700px){
+  .heading{
+    color:#222422;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: 8%;
   }
 }
